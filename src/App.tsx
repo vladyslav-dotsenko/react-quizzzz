@@ -119,22 +119,28 @@ function App() {
   const savedState = loadState()
 
   const [view, setView] = useState<AppView>(() => {
-    if (savedState) {
+    const hasValidState = savedState && savedState.selectedQuestionIds?.length > 0
+    if (hasValidState) {
       return savedState.completed ? 'results' : 'quiz'
     }
     return 'start'
   })
 
-  const [state, setState] = useState<QuizState>(
-    () =>
-      savedState || {
-        currentIndex: 0,
-        answers: {},
-        startTime: Date.now(),
-        completed: false,
-        selectedQuestionIds: [],
+  const [state, setState] = useState<QuizState>(() => {
+    if (savedState) {
+      return {
+        ...savedState,
+        selectedQuestionIds: savedState.selectedQuestionIds || [],
       }
-  )
+    }
+    return {
+      currentIndex: 0,
+      answers: {},
+      startTime: Date.now(),
+      completed: false,
+      selectedQuestionIds: [],
+    }
+  })
   const [elapsedTime, setElapsedTime] = useState(0)
   const [resultGif, setResultGif] = useState<string | null>(null)
 
