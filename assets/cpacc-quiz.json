@@ -1,0 +1,1514 @@
+{
+  "title": "CPACC Body of Knowledge Quiz",
+  "description": "Assessment quiz for Certified Professional in Accessibility Core Competencies",
+  "version": "1.0",
+  "source": "IAAP CPACC Body of Knowledge, Version 4.0, October 2023",
+  "totalQuestions": 100,
+  "domainWeighting": {
+    "domain1": "40%",
+    "domain2": "40%",
+    "domain3": "20%"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "Medical Model",
+      "question": "Which model of disability views disability as a problem of the individual that requires medical care and treatment?",
+      "options": {
+        "A": "Social Model",
+        "B": "Medical Model",
+        "C": "Economic Model",
+        "D": "Charity Model"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Medical Model views disability as a problem belonging to the individual, caused by disease, trauma, or health condition, requiring sustained medical care."
+    },
+    {
+      "id": 2,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "Social Model",
+      "question": "According to the Social Model of disability, what primarily causes disability?",
+      "options": {
+        "A": "Biological factors and medical conditions",
+        "B": "Economic inability to participate in work",
+        "C": "Barriers created by society and the environment",
+        "D": "Lack of charitable support"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Social Model sees disability as created by societal barriers rather than individual impairment. It focuses on removing barriers that restrict life choices."
+    },
+    {
+      "id": 3,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "Biopsychosocial Model",
+      "question": "Which model integrates biological, psychological, and social factors to understand disability?",
+      "options": {
+        "A": "Functional Solutions Model",
+        "B": "Economic Model",
+        "C": "Biopsychosocial Model",
+        "D": "Social Identity Model"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Biopsychosocial Model, conceptualized by George Engel in 1977, accounts for bio (physiological), psycho (thoughts, emotions), and social (socio-economic, cultural) factors."
+    },
+    {
+      "id": 4,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "Economic Model",
+      "question": "The Economic Model of disability primarily defines disability by:",
+      "options": {
+        "A": "The person's cultural identity",
+        "B": "The person's inability to participate in work",
+        "C": "The need for charitable assistance",
+        "D": "Medical treatment requirements"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Economic Model defines disability by a person's inability to participate in work and assesses the economic consequences for the individual, employer, and state."
+    },
+    {
+      "id": 5,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "Functional Solutions Model",
+      "question": "Which model focuses on identifying limitations due to disability with intent to create technological or methodological solutions?",
+      "options": {
+        "A": "Medical Model",
+        "B": "Social Model",
+        "C": "Functional Solutions Model",
+        "D": "Charity Model"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Functional Solutions Model is a practical perspective that identifies functional impairments and promotes solutions through technological or methodological innovation."
+    },
+    {
+      "id": 6,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "Social Identity Model",
+      "question": "The Social Identity or Cultural Affiliation Model is most evident among which group?",
+      "options": {
+        "A": "People with mobility disabilities",
+        "B": "People who are deaf",
+        "C": "People with cognitive disabilities",
+        "D": "People with visual disabilities"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Social Identity Model is most evident among deaf people, where Deaf culture and identity derive strength from being part of a close-knit linguistic minority."
+    },
+    {
+      "id": 7,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "Charity Model",
+      "question": "What is a weakness of the Charity Model of disability?",
+      "options": {
+        "A": "It ignores medical needs",
+        "B": "It can be condescending and focuses on short-term solutions",
+        "C": "It overemphasizes technological solutions",
+        "D": "It excludes people from work opportunities"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Charity Model can be condescending, treating people with disabilities as objects of pity, and often focuses on short-term needs at the expense of long-term solutions."
+    },
+    {
+      "id": 8,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "Model Alignment",
+      "question": "Which model aligns most closely with the principles of accessibility and universal design?",
+      "options": {
+        "A": "Medical Model",
+        "B": "Charity Model",
+        "C": "Social Model",
+        "D": "Economic Model"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Social Model aligns most closely with accessibility and universal design principles, emphasizing that barriers can be removed through thoughtful design of environments and systems."
+    },
+    {
+      "id": 9,
+      "domain": "Domain 1",
+      "topic": "Visual Disabilities",
+      "subtopic": "Blindness",
+      "question": "According to WHO, approximately how many people worldwide have vision impairment or blindness?",
+      "options": {
+        "A": "500 million",
+        "B": "1 billion",
+        "C": "2.2 billion",
+        "D": "3.5 billion"
+      },
+      "correctAnswer": "C",
+      "explanation": "According to WHO, globally at least 2.2 billion people have vision impairment or blindness."
+    },
+    {
+      "id": 10,
+      "domain": "Domain 1",
+      "topic": "Visual Disabilities",
+      "subtopic": "Color Vision Deficiency",
+      "question": "What percentage of males have red-green color vision deficiency?",
+      "options": {
+        "A": "0.5%",
+        "B": "4%",
+        "C": "8.3%",
+        "D": "12%"
+      },
+      "correctAnswer": "C",
+      "explanation": "Red-green color vision deficiency affects approximately 1 in 12 males (8.3%) compared to 1 in 200 females (0.5%)."
+    },
+    {
+      "id": 11,
+      "domain": "Domain 1",
+      "topic": "Visual Disabilities",
+      "subtopic": "Assistive Technologies",
+      "question": "Which assistive technology converts text and structural information to speech for blind users?",
+      "options": {
+        "A": "Screen magnifier",
+        "B": "Screen reader",
+        "C": "Refreshable braille display",
+        "D": "Audio description"
+      },
+      "correctAnswer": "B",
+      "explanation": "Screen readers convert text and structural information of interfaces and content to speech, enabling blind users to navigate digital content."
+    },
+    {
+      "id": 12,
+      "domain": "Domain 1",
+      "topic": "Visual Disabilities",
+      "subtopic": "ICT Barriers",
+      "question": "Which is NOT a common ICT barrier for people with visual disabilities?",
+      "options": {
+        "A": "Images without text alternatives",
+        "B": "Insufficient color contrast",
+        "C": "Content that causes seizures",
+        "D": "Websites not supporting keyboard navigation"
+      },
+      "correctAnswer": "C",
+      "explanation": "Content causing seizures is primarily a barrier for people with seizure disabilities, not visual disabilities. The other options are common visual disability barriers."
+    },
+    {
+      "id": 13,
+      "domain": "Domain 1",
+      "topic": "Auditory Disabilities",
+      "subtopic": "Deafness",
+      "question": "What is the primary difference between deafness and being hard of hearing?",
+      "options": {
+        "A": "Deafness is always present from birth",
+        "B": "Hard of hearing people still have some useful hearing",
+        "C": "Deafness only affects one ear",
+        "D": "Hard of hearing cannot use hearing aids"
+      },
+      "correctAnswer": "B",
+      "explanation": "People who are hard of hearing have hearing loss ranging from mild to severe but still have some useful hearing, while deafness refers to total or near total loss of hearing."
+    },
+    {
+      "id": 14,
+      "domain": "Domain 1",
+      "topic": "Auditory Disabilities",
+      "subtopic": "Assistive Technologies",
+      "question": "What does CART stand for in the context of auditory accessibility?",
+      "options": {
+        "A": "Computer Assisted Real-time Translation",
+        "B": "Communication Access Realtime Translation",
+        "C": "Captioning And Recording Technology",
+        "D": "Closed Audio Relay Transcription"
+      },
+      "correctAnswer": "B",
+      "explanation": "CART stands for Communication Access Realtime Translation, a service providing real-time captions for deaf and hard of hearing individuals."
+    },
+    {
+      "id": 15,
+      "domain": "Domain 1",
+      "topic": "Auditory Disabilities",
+      "subtopic": "Central Auditory Processing Disorder",
+      "question": "What characterizes Central Auditory Processing Disorder (APD)?",
+      "options": {
+        "A": "Total loss of hearing",
+        "B": "Inability to interpret sounds despite normal hearing sensitivity",
+        "C": "Damage to the outer ear",
+        "D": "Progressive hearing loss with age"
+      },
+      "correctAnswer": "B",
+      "explanation": "APD involves an inability to interpret, organize, or analyze what's heard, despite having normal hearing sensitivity."
+    },
+    {
+      "id": 16,
+      "domain": "Domain 1",
+      "topic": "Deaf-Blindness",
+      "subtopic": "Communication",
+      "question": "Which is a common communication method for people with deaf-blindness?",
+      "options": {
+        "A": "Screen readers only",
+        "B": "Standard sign language without modifications",
+        "C": "Tactile sign language and braille",
+        "D": "Audio-only communication"
+      },
+      "correctAnswer": "C",
+      "explanation": "People with deaf-blindness often use tactile sign language (signing into the person's hands) and braille for communication."
+    },
+    {
+      "id": 17,
+      "domain": "Domain 1",
+      "topic": "Speech and Language Disabilities",
+      "subtopic": "Aphasia",
+      "question": "Aphasia is a language disorder resulting from:",
+      "options": {
+        "A": "Hearing loss",
+        "B": "Neurological damage",
+        "C": "Vocal cord damage",
+        "D": "Cognitive development issues"
+      },
+      "correctAnswer": "B",
+      "explanation": "Aphasia is a language disorder resulting from neurological damage that affects the production or comprehension of speech and the ability to read or write."
+    },
+    {
+      "id": 18,
+      "domain": "Domain 1",
+      "topic": "Speech and Language Disabilities",
+      "subtopic": "Apraxia",
+      "question": "What characterizes Apraxia of Speech?",
+      "options": {
+        "A": "Inability to hear speech sounds",
+        "B": "Brain difficulty planning speech movements despite knowing what to say",
+        "C": "Complete inability to produce any sounds",
+        "D": "Stuttering and fluency issues"
+      },
+      "correctAnswer": "B",
+      "explanation": "Apraxia of Speech occurs when a person knows what they want to say but the brain has difficulty planning the movements involved in speaking."
+    },
+    {
+      "id": 19,
+      "domain": "Domain 1",
+      "topic": "Mobility Disabilities",
+      "subtopic": "Barriers",
+      "question": "Which is a common physical environment barrier for people with mobility disabilities?",
+      "options": {
+        "A": "Lack of captions",
+        "B": "Insufficient lighting",
+        "C": "Lack of ramps and elevators",
+        "D": "Missing audio descriptions"
+      },
+      "correctAnswer": "C",
+      "explanation": "Lack of ramps, elevators, and accessible pathways are primary physical environment barriers for people with mobility disabilities."
+    },
+    {
+      "id": 20,
+      "domain": "Domain 1",
+      "topic": "Mobility Disabilities",
+      "subtopic": "ICT Accessibility",
+      "question": "Why is keyboard accessibility particularly important for people with mobility disabilities?",
+      "options": {
+        "A": "They cannot see the screen",
+        "B": "Many cannot use a standard mouse",
+        "C": "They need larger text",
+        "D": "They require audio output"
+      },
+      "correctAnswer": "B",
+      "explanation": "Many people with mobility disabilities cannot use a standard mouse and rely on keyboard navigation or alternative input devices that emulate keyboard input."
+    },
+    {
+      "id": 21,
+      "domain": "Domain 1",
+      "topic": "Cognitive Disabilities",
+      "subtopic": "Dyslexia",
+      "question": "Dyslexia primarily affects a person's ability to:",
+      "options": {
+        "A": "Perform mathematical calculations",
+        "B": "Read and process written text",
+        "C": "Understand spatial relationships",
+        "D": "Remember recent events"
+      },
+      "correctAnswer": "B",
+      "explanation": "Dyslexia is a learning disability that primarily affects a person's ability to read and process written text."
+    },
+    {
+      "id": 22,
+      "domain": "Domain 1",
+      "topic": "Cognitive Disabilities",
+      "subtopic": "Dyscalculia",
+      "question": "Dyscalculia is a disability involving difficulty with:",
+      "options": {
+        "A": "Reading comprehension",
+        "B": "Speech production",
+        "C": "Arithmetic and mathematical calculation",
+        "D": "Motor coordination"
+      },
+      "correctAnswer": "C",
+      "explanation": "Dyscalculia involves an inability to understand arithmetic and how to calculate, affecting mathematical processing."
+    },
+    {
+      "id": 23,
+      "domain": "Domain 1",
+      "topic": "Cognitive Disabilities",
+      "subtopic": "Intellectual Disabilities",
+      "question": "Intellectual disabilities are characterized by significant limitations in:",
+      "options": {
+        "A": "Physical mobility only",
+        "B": "Sensory perception only",
+        "C": "Intellectual functioning and adaptive behavior",
+        "D": "Speech production only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Intellectual disabilities are characterized by significant limitations in both intellectual functioning and adaptive behavior."
+    },
+    {
+      "id": 24,
+      "domain": "Domain 1",
+      "topic": "Cognitive Disabilities",
+      "subtopic": "Design Considerations",
+      "question": "Which design approach best supports users with cognitive disabilities?",
+      "options": {
+        "A": "Complex, feature-rich interfaces",
+        "B": "Simple, consistent, and predictable layouts",
+        "C": "Heavy reliance on text-only content",
+        "D": "Time-limited interactions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Simple, consistent, and predictable layouts with clear navigation help users with cognitive disabilities understand and use digital content."
+    },
+    {
+      "id": 25,
+      "domain": "Domain 1",
+      "topic": "Seizure Disabilities",
+      "subtopic": "Photosensitive Epilepsy",
+      "question": "Photosensitive epilepsy can be triggered by:",
+      "options": {
+        "A": "Loud sounds",
+        "B": "Flashing or flickering lights and patterns",
+        "C": "Strong smells",
+        "D": "Temperature changes"
+      },
+      "correctAnswer": "B",
+      "explanation": "Photosensitive epilepsy is a condition where seizures are triggered by flashing or flickering lights, or certain visual patterns."
+    },
+    {
+      "id": 26,
+      "domain": "Domain 1",
+      "topic": "Seizure Disabilities",
+      "subtopic": "WCAG Requirements",
+      "question": "According to WCAG, content should not flash more than how many times per second to avoid triggering seizures?",
+      "options": {
+        "A": "1 time",
+        "B": "3 times",
+        "C": "5 times",
+        "D": "10 times"
+      },
+      "correctAnswer": "B",
+      "explanation": "WCAG requires that content does not flash more than 3 times per second to reduce the risk of triggering photosensitive seizures."
+    },
+    {
+      "id": 27,
+      "domain": "Domain 1",
+      "topic": "Psychological Disabilities",
+      "subtopic": "Types",
+      "question": "Which of the following is considered a psychological disability?",
+      "options": {
+        "A": "Dyslexia",
+        "B": "Anxiety disorders",
+        "C": "Cerebral palsy",
+        "D": "Color blindness"
+      },
+      "correctAnswer": "B",
+      "explanation": "Anxiety disorders are psychological disabilities that affect mental health and emotional well-being. Dyslexia is cognitive, cerebral palsy is mobility, and color blindness is visual."
+    },
+    {
+      "id": 28,
+      "domain": "Domain 1",
+      "topic": "Multiple Complex Disabilities",
+      "subtopic": "Definition",
+      "question": "Multiple/complex disabilities refers to:",
+      "options": {
+        "A": "Having a severe single disability",
+        "B": "Having two or more co-occurring disabilities",
+        "C": "Temporary disabilities",
+        "D": "Age-related disabilities only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Multiple/complex disabilities refers to having two or more co-occurring disabilities that may interact and create unique challenges."
+    },
+    {
+      "id": 29,
+      "domain": "Domain 1",
+      "topic": "Disability Demographics",
+      "subtopic": "Global Statistics",
+      "question": "Approximately what percentage of the world's population has some form of disability?",
+      "options": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "25%"
+      },
+      "correctAnswer": "C",
+      "explanation": "According to WHO, approximately 15% of the world's population (over 1 billion people) has some form of disability."
+    },
+    {
+      "id": 30,
+      "domain": "Domain 1",
+      "topic": "Disability Demographics",
+      "subtopic": "Age Factor",
+      "question": "Which age group has the highest rates of disability?",
+      "options": {
+        "A": "Children under 15",
+        "B": "Young adults 18-30",
+        "C": "Middle-aged adults 30-50",
+        "D": "Older adults over 50"
+      },
+      "correctAnswer": "D",
+      "explanation": "Most people with disabilities, particularly vision impairment, are over 50 years old, as disability rates increase significantly with age."
+    },
+    {
+      "id": 31,
+      "domain": "Domain 1",
+      "topic": "Disability Etiquette",
+      "subtopic": "Language",
+      "question": "What is person-first language?",
+      "options": {
+        "A": "Speaking to a person with disability before their companion",
+        "B": "Language format emphasizing the person before the disability",
+        "C": "Using a person's first name",
+        "D": "Speaking in the first person"
+      },
+      "correctAnswer": "B",
+      "explanation": "Person-first language emphasizes the person before the disability (e.g., 'person with a disability' rather than 'disabled person')."
+    },
+    {
+      "id": 32,
+      "domain": "Domain 1",
+      "topic": "Disability Etiquette",
+      "subtopic": "Identity-First Language",
+      "question": "Some disability communities prefer identity-first language because:",
+      "options": {
+        "A": "It is grammatically correct",
+        "B": "It emphasizes disability as a key part of their identity",
+        "C": "It is required by law",
+        "D": "It is shorter to say"
+      },
+      "correctAnswer": "B",
+      "explanation": "Identity-first language (e.g., 'disabled person') is preferred by some communities because they see disability as a core part of their identity and culture."
+    },
+    {
+      "id": 33,
+      "domain": "Domain 1",
+      "topic": "Disability Etiquette",
+      "subtopic": "Interaction",
+      "question": "When communicating with a person who is deaf, you should:",
+      "options": {
+        "A": "Speak louder",
+        "B": "Face the person and speak clearly",
+        "C": "Write everything down",
+        "D": "Speak to their interpreter instead"
+      },
+      "correctAnswer": "B",
+      "explanation": "When communicating with a deaf person, face them directly, maintain eye contact, and speak clearly to allow for lip reading if applicable."
+    },
+    {
+      "id": 34,
+      "domain": "Domain 1",
+      "topic": "Disability Etiquette",
+      "subtopic": "Service Animals",
+      "question": "What is the appropriate etiquette regarding service animals?",
+      "options": {
+        "A": "Pet them to show friendliness",
+        "B": "Offer them treats",
+        "C": "Do not distract them while working",
+        "D": "Ask to play with them"
+      },
+      "correctAnswer": "C",
+      "explanation": "Service animals should not be distracted while working as this could interfere with their ability to assist their handler."
+    },
+    {
+      "id": 35,
+      "domain": "Domain 1",
+      "topic": "Assistive Technologies",
+      "subtopic": "Types",
+      "question": "Which is an example of an adaptive strategy rather than assistive technology?",
+      "options": {
+        "A": "Screen reader",
+        "B": "Using keyboard shortcuts instead of mouse",
+        "C": "Hearing aid",
+        "D": "Wheelchair"
+      },
+      "correctAnswer": "B",
+      "explanation": "Using keyboard shortcuts is an adaptive strategy (behavioral adjustment), while screen readers, hearing aids, and wheelchairs are assistive technologies (devices/products)."
+    },
+    {
+      "id": 36,
+      "domain": "Domain 1",
+      "topic": "Assistive Technologies",
+      "subtopic": "Refreshable Braille Display",
+      "question": "A refreshable braille display:",
+      "options": {
+        "A": "Prints braille on paper",
+        "B": "Converts digital text to tactile braille characters",
+        "C": "Records braille to audio",
+        "D": "Translates spoken words to braille"
+      },
+      "correctAnswer": "B",
+      "explanation": "A refreshable braille display is a device that converts digital text to braille characters through pins that can be felt, updating in real-time."
+    },
+    {
+      "id": 37,
+      "domain": "Domain 1",
+      "topic": "Visual Disabilities",
+      "subtopic": "Low Vision",
+      "question": "What percentage of people with vision impairments live in low-income settings?",
+      "options": {
+        "A": "50%",
+        "B": "70%",
+        "C": "90%",
+        "D": "95%"
+      },
+      "correctAnswer": "C",
+      "explanation": "About 90% of people with vision impairments live in low-income settings, indicating significant disparities in eye care access."
+    },
+    {
+      "id": 38,
+      "domain": "Domain 1",
+      "topic": "Models of Disability",
+      "subtopic": "WHO Framework",
+      "question": "The WHO International Classification of Functioning, Disability and Health (ICF) is derived from which model?",
+      "options": {
+        "A": "Medical Model",
+        "B": "Social Model",
+        "C": "Biopsychosocial Model",
+        "D": "Economic Model"
+      },
+      "correctAnswer": "C",
+      "explanation": "The WHO ICF, published in 2002, is derived from the Biopsychosocial Model, integrating both social and medical perspectives on disability."
+    },
+    {
+      "id": 39,
+      "domain": "Domain 1",
+      "topic": "Cognitive Disabilities",
+      "subtopic": "Attention",
+      "question": "Which cognitive function is primarily affected by ADHD?",
+      "options": {
+        "A": "Memory",
+        "B": "Attention and focus",
+        "C": "Reading comprehension",
+        "D": "Mathematical calculation"
+      },
+      "correctAnswer": "B",
+      "explanation": "ADHD (Attention Deficit Hyperactivity Disorder) primarily affects attention, focus, and impulse control."
+    },
+    {
+      "id": 40,
+      "domain": "Domain 1",
+      "topic": "Disability Categories",
+      "subtopic": "Temporary Disabilities",
+      "question": "Which statement about disabilities is true?",
+      "options": {
+        "A": "All disabilities are permanent",
+        "B": "Disabilities can be permanent, temporary, or episodic",
+        "C": "Temporary conditions are never considered disabilities",
+        "D": "Only congenital conditions are disabilities"
+      },
+      "correctAnswer": "B",
+      "explanation": "Disabilities can be permanent, temporary, or episodic. Accessibility solutions benefit people across all these categories."
+    },
+    {
+      "id": 41,
+      "domain": "Domain 2",
+      "topic": "Universal Design vs Accommodations",
+      "subtopic": "Definition",
+      "question": "What is the key difference between universal design and accommodations?",
+      "options": {
+        "A": "Universal design is more expensive",
+        "B": "Universal design is built-in for all; accommodations are individual adjustments",
+        "C": "Accommodations are permanent; universal design is temporary",
+        "D": "There is no difference"
+      },
+      "correctAnswer": "B",
+      "explanation": "Universal design creates environments usable by all from the start, while accommodations are specific modifications made for individual needs."
+    },
+    {
+      "id": 42,
+      "domain": "Domain 2",
+      "topic": "Universal Design vs Accommodations",
+      "subtopic": "Reasonable Accommodation",
+      "question": "A reasonable accommodation is:",
+      "options": {
+        "A": "A universal design principle",
+        "B": "A modification made to ensure equal access in a specific case",
+        "C": "A building code requirement",
+        "D": "A type of assistive technology"
+      },
+      "correctAnswer": "B",
+      "explanation": "Reasonable accommodation refers to specific modifications and adjustments made to ensure equal access for a person with a disability in a particular situation."
+    },
+    {
+      "id": 43,
+      "domain": "Domain 2",
+      "topic": "Benefits of Accessibility",
+      "subtopic": "Business Case",
+      "question": "Which is NOT a benefit of accessibility?",
+      "options": {
+        "A": "Expanded market reach",
+        "B": "Improved SEO",
+        "C": "Reduced legal risk",
+        "D": "Increased code complexity"
+      },
+      "correctAnswer": "D",
+      "explanation": "Accessibility benefits include expanded market, better SEO, reduced legal risk, and improved usability. Properly implemented, it should not increase code complexity."
+    },
+    {
+      "id": 44,
+      "domain": "Domain 2",
+      "topic": "Benefits of Accessibility",
+      "subtopic": "Curb Cut Effect",
+      "question": "The 'curb cut effect' refers to:",
+      "options": {
+        "A": "Budget cuts for accessibility",
+        "B": "Accessibility features benefiting everyone, not just disabled users",
+        "C": "Removing accessibility features",
+        "D": "Physical barriers in sidewalks"
+      },
+      "correctAnswer": "B",
+      "explanation": "The curb cut effect describes how accessibility features (like curb cuts) designed for people with disabilities benefit everyone, including parents with strollers, delivery workers, etc."
+    },
+    {
+      "id": 45,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "POUR",
+      "question": "What does POUR stand for in WCAG?",
+      "options": {
+        "A": "Practical, Organized, Useful, Reliable",
+        "B": "Perceivable, Operable, Understandable, Robust",
+        "C": "Predictable, Open, Universal, Responsive",
+        "D": "Planned, Optimized, Unified, Regulated"
+      },
+      "correctAnswer": "B",
+      "explanation": "POUR stands for Perceivable, Operable, Understandable, and Robust - the four main principles of WCAG."
+    },
+    {
+      "id": 46,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Perceivable",
+      "question": "Which guideline falls under the Perceivable principle?",
+      "options": {
+        "A": "Make all functionality available from a keyboard",
+        "B": "Provide text alternatives for non-text content",
+        "C": "Help users avoid and correct mistakes",
+        "D": "Maximize compatibility with assistive technologies"
+      },
+      "correctAnswer": "B",
+      "explanation": "Providing text alternatives for non-text content is a Perceivable guideline. Keyboard access is Operable, error prevention is Understandable, and compatibility is Robust."
+    },
+    {
+      "id": 47,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Operable",
+      "question": "Which requirement falls under the Operable principle?",
+      "options": {
+        "A": "Provide captions for videos",
+        "B": "Make content readable and understandable",
+        "C": "Give users enough time to read and use content",
+        "D": "Ensure content works with assistive technologies"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giving users enough time is an Operable requirement. Captions are Perceivable, readability is Understandable, and AT compatibility is Robust."
+    },
+    {
+      "id": 48,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Understandable",
+      "question": "Which guideline is part of the Understandable principle?",
+      "options": {
+        "A": "Provide adequate color contrast",
+        "B": "Make all functionality keyboard accessible",
+        "C": "Make content appear and operate in predictable ways",
+        "D": "Provide text alternatives"
+      },
+      "correctAnswer": "C",
+      "explanation": "Predictable operation is part of the Understandable principle, focusing on making content behavior consistent and expected."
+    },
+    {
+      "id": 49,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Robust",
+      "question": "The Robust principle primarily ensures that content:",
+      "options": {
+        "A": "Looks visually appealing",
+        "B": "Is compatible with current and future user agents including assistive technologies",
+        "C": "Loads quickly",
+        "D": "Has proper grammar"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Robust principle ensures content is compatible with a wide variety of user agents, including assistive technologies, both current and future."
+    },
+    {
+      "id": 50,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Conformance Levels",
+      "question": "WCAG success criteria are organized into how many conformance levels?",
+      "options": {
+        "A": "2 (Pass/Fail)",
+        "B": "3 (A, AA, AAA)",
+        "C": "4 (1, 2, 3, 4)",
+        "D": "5 (Bronze to Platinum)"
+      },
+      "correctAnswer": "B",
+      "explanation": "WCAG has three conformance levels: A (minimum), AA (mid-range, commonly required), and AAA (highest)."
+    },
+    {
+      "id": 51,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Current Version",
+      "question": "What is the current version of WCAG mentioned in the knowledge base?",
+      "options": {
+        "A": "WCAG 1.0",
+        "B": "WCAG 2.0",
+        "C": "WCAG 2.1",
+        "D": "WCAG 2.2"
+      },
+      "correctAnswer": "D",
+      "explanation": "WCAG 2.2 is the current version, building upon WCAG 2.1 with additional success criteria."
+    },
+    {
+      "id": 52,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Origin",
+      "question": "The Seven Principles of Universal Design were developed at which institution?",
+      "options": {
+        "A": "MIT",
+        "B": "Stanford University",
+        "C": "North Carolina State University",
+        "D": "Harvard University"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Seven Principles were developed in 1997 at North Carolina State University by a group led by Ronald Mace."
+    },
+    {
+      "id": 53,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Equitable Use",
+      "question": "The principle of Equitable Use means:",
+      "options": {
+        "A": "All users pay the same price",
+        "B": "Design is useful and marketable to people with diverse abilities",
+        "C": "Equal distribution of resources",
+        "D": "Same treatment regardless of outcome"
+      },
+      "correctAnswer": "B",
+      "explanation": "Equitable Use means the design is useful and marketable to people with diverse abilities, providing the same means of use for all users when possible."
+    },
+    {
+      "id": 54,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Flexibility in Use",
+      "question": "Which is an example of Flexibility in Use?",
+      "options": {
+        "A": "Making a product cheaper",
+        "B": "Accommodating both right- and left-handed use",
+        "C": "Reducing product size",
+        "D": "Using simple colors"
+      },
+      "correctAnswer": "B",
+      "explanation": "Flexibility in Use includes accommodating right- or left-handed access and use, providing choice in methods of use."
+    },
+    {
+      "id": 55,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Simple and Intuitive Use",
+      "question": "Simple and Intuitive Use means the design should be easy to understand regardless of:",
+      "options": {
+        "A": "Cost",
+        "B": "Experience, knowledge, language skills, or concentration level",
+        "C": "Physical strength",
+        "D": "Geographic location"
+      },
+      "correctAnswer": "B",
+      "explanation": "Simple and Intuitive Use means the design is easy to understand regardless of user's experience, knowledge, language skills, or concentration level."
+    },
+    {
+      "id": 56,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Perceptible Information",
+      "question": "Perceptible Information principle suggests using:",
+      "options": {
+        "A": "Only visual modes of communication",
+        "B": "Different modes (pictorial, verbal, tactile) for essential information",
+        "C": "Only audio-based communication",
+        "D": "Technical jargon for precision"
+      },
+      "correctAnswer": "B",
+      "explanation": "Perceptible Information suggests using different modes (pictorial, verbal, tactile) for redundant presentation of essential information."
+    },
+    {
+      "id": 57,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Tolerance for Error",
+      "question": "Tolerance for Error design principle includes:",
+      "options": {
+        "A": "Allowing unlimited mistakes without consequence",
+        "B": "Minimizing hazards and providing fail-safe features",
+        "C": "Removing all interactive elements",
+        "D": "Making errors impossible"
+      },
+      "correctAnswer": "B",
+      "explanation": "Tolerance for Error minimizes hazards and adverse consequences of unintended actions through warnings, fail-safe features, and thoughtful element arrangement."
+    },
+    {
+      "id": 58,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Low Physical Effort",
+      "question": "Low Physical Effort principle includes:",
+      "options": {
+        "A": "Requiring minimal mental effort",
+        "B": "Minimizing repetitive actions and sustained physical effort",
+        "C": "Reducing product weight",
+        "D": "Shortening task duration"
+      },
+      "correctAnswer": "B",
+      "explanation": "Low Physical Effort means design can be used efficiently with minimum fatigue, minimizing repetitive actions and sustained physical effort."
+    },
+    {
+      "id": 59,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Size and Space",
+      "question": "Size and Space for Approach and Use means providing:",
+      "options": {
+        "A": "Maximum product dimensions",
+        "B": "Adequate space for use of assistive devices",
+        "C": "Smallest possible footprint",
+        "D": "Standard sizing only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Size and Space means providing appropriate space for approach, reach, and manipulation regardless of body size, posture, or mobility, including space for assistive devices."
+    },
+    {
+      "id": 60,
+      "domain": "Domain 2",
+      "topic": "Built Environment Accessibility",
+      "subtopic": "Physical Features",
+      "question": "Which is an accessibility feature for the built environment?",
+      "options": {
+        "A": "Alt text for images",
+        "B": "Tactile ground surface indicators",
+        "C": "Captions for videos",
+        "D": "Screen reader compatibility"
+      },
+      "correctAnswer": "B",
+      "explanation": "Tactile ground surface indicators (like raised tiles) are physical accessibility features for the built environment, helping people with visual disabilities navigate."
+    },
+    {
+      "id": 61,
+      "domain": "Domain 2",
+      "topic": "Built Environment Accessibility",
+      "subtopic": "Wayfinding",
+      "question": "Good wayfinding in buildings should include:",
+      "options": {
+        "A": "Complex route options",
+        "B": "Signs with braille and high contrast",
+        "C": "Minimal signage to reduce clutter",
+        "D": "Only visual maps"
+      },
+      "correctAnswer": "B",
+      "explanation": "Good wayfinding includes braille on signs, high contrast text, tactile maps, and clear visual signage for diverse accessibility needs."
+    },
+    {
+      "id": 62,
+      "domain": "Domain 2",
+      "topic": "Universal Design for Learning",
+      "subtopic": "Definition",
+      "question": "Universal Design for Learning (UDL) applies universal design principles to:",
+      "options": {
+        "A": "Physical buildings",
+        "B": "Product manufacturing",
+        "C": "Educational curricula and teaching methods",
+        "D": "Transportation systems"
+      },
+      "correctAnswer": "C",
+      "explanation": "UDL applies universal design principles to education, creating flexible learning environments that accommodate individual learning differences."
+    },
+    {
+      "id": 63,
+      "domain": "Domain 2",
+      "topic": "Universal Design for Learning",
+      "subtopic": "Principles",
+      "question": "UDL provides multiple means of:",
+      "options": {
+        "A": "Testing only",
+        "B": "Engagement, representation, and action/expression",
+        "C": "Funding and resources",
+        "D": "Building construction"
+      },
+      "correctAnswer": "B",
+      "explanation": "UDL provides multiple means of engagement (the 'why'), representation (the 'what'), and action/expression (the 'how') of learning."
+    },
+    {
+      "id": 64,
+      "domain": "Domain 2",
+      "topic": "Usability and User Experience",
+      "subtopic": "Definition",
+      "question": "Usability refers to:",
+      "options": {
+        "A": "How visually appealing a product is",
+        "B": "The ease of access and use of a product",
+        "C": "The technical specifications",
+        "D": "The price point"
+      },
+      "correctAnswer": "B",
+      "explanation": "Usability refers to the ease of access and use of a product or website, focusing on efficiency and effectiveness."
+    },
+    {
+      "id": 65,
+      "domain": "Domain 2",
+      "topic": "Usability and User Experience",
+      "subtopic": "UX Definition",
+      "question": "User Experience (UX) encompasses:",
+      "options": {
+        "A": "Only the visual design",
+        "B": "Only the checkout process",
+        "C": "Every interaction with a product including awareness, acquisition, use, and satisfaction",
+        "D": "Only customer service interactions"
+      },
+      "correctAnswer": "C",
+      "explanation": "UX includes every interaction a person has with a product, from awareness and acquisition through use and overall satisfaction."
+    },
+    {
+      "id": 66,
+      "domain": "Domain 2",
+      "topic": "Usability and User Experience",
+      "subtopic": "Relationship to Accessibility",
+      "question": "What is the relationship between accessibility and usability?",
+      "options": {
+        "A": "They are completely separate concerns",
+        "B": "Accessibility is a subset of usability",
+        "C": "They overlap significantly; accessible design improves usability for all",
+        "D": "Usability is only for non-disabled users"
+      },
+      "correctAnswer": "C",
+      "explanation": "Accessibility and usability overlap significantly. Accessible design often improves usability for all users, not just those with disabilities."
+    },
+    {
+      "id": 67,
+      "domain": "Domain 2",
+      "topic": "Benefits of Accessibility",
+      "subtopic": "Legal Compliance",
+      "question": "One benefit of accessibility is:",
+      "options": {
+        "A": "Smaller customer base",
+        "B": "Compliance with laws and reduced litigation risk",
+        "C": "Simpler development process",
+        "D": "Lower quality standards"
+      },
+      "correctAnswer": "B",
+      "explanation": "Accessibility helps organizations comply with laws and regulations, reducing the risk of legal action and associated costs."
+    },
+    {
+      "id": 68,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Text Alternatives",
+      "question": "Why are text alternatives for images important?",
+      "options": {
+        "A": "They improve page loading speed",
+        "B": "They allow screen readers to convey image content to blind users",
+        "C": "They reduce bandwidth usage",
+        "D": "They are required for visual users"
+      },
+      "correctAnswer": "B",
+      "explanation": "Text alternatives enable screen readers to convey the meaning and content of images to users who cannot see them."
+    },
+    {
+      "id": 69,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Keyboard Accessibility",
+      "question": "All interactive elements should be:",
+      "options": {
+        "A": "Mouse-only accessible",
+        "B": "Touch-only accessible",
+        "C": "Keyboard accessible",
+        "D": "Voice-only accessible"
+      },
+      "correctAnswer": "C",
+      "explanation": "All interactive elements should be keyboard accessible because many assistive technologies rely on keyboard input or emulate keyboard navigation."
+    },
+    {
+      "id": 70,
+      "domain": "Domain 2",
+      "topic": "Universal Design",
+      "subtopic": "Design for All",
+      "question": "'Design for All' is a term particularly used in which region?",
+      "options": {
+        "A": "North America",
+        "B": "Europe",
+        "C": "Asia",
+        "D": "Australia"
+      },
+      "correctAnswer": "B",
+      "explanation": "Design for All is a concept particularly used in Europe, referring to designing products and environments usable by all people without needing adaptations."
+    },
+    {
+      "id": 71,
+      "domain": "Domain 2",
+      "topic": "Universal Design",
+      "subtopic": "Inclusive Design",
+      "question": "Inclusive Design is:",
+      "options": {
+        "A": "Design only for people with disabilities",
+        "B": "Design ensuring all people can use products without adaptations",
+        "C": "Design that excludes certain user groups",
+        "D": "Design focused only on visual aesthetics"
+      },
+      "correctAnswer": "B",
+      "explanation": "Inclusive Design ensures products, services, and environments can be used by all people without needing special adaptations."
+    },
+    {
+      "id": 72,
+      "domain": "Domain 2",
+      "topic": "Built Environment Accessibility",
+      "subtopic": "Accessible Parking",
+      "question": "Accessible parking spaces should:",
+      "options": {
+        "A": "Be farthest from building entrances",
+        "B": "Be closest to accessible building entrances with adequate width",
+        "C": "Be the same size as standard spaces",
+        "D": "Have no special markings"
+      },
+      "correctAnswer": "B",
+      "explanation": "Accessible parking should be close to accessible entrances and have adequate width for wheelchair access and transfer."
+    },
+    {
+      "id": 73,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Color Contrast",
+      "question": "Why should color not be the only means of conveying information?",
+      "options": {
+        "A": "Colors are expensive to print",
+        "B": "People with color vision deficiency may not perceive color differences",
+        "C": "Colors look different on different monitors",
+        "D": "Colors slow down page loading"
+      },
+      "correctAnswer": "B",
+      "explanation": "Relying on color alone excludes users with color vision deficiency who cannot distinguish certain color combinations."
+    },
+    {
+      "id": 74,
+      "domain": "Domain 2",
+      "topic": "Universal Design for Learning",
+      "subtopic": "Multiple Means of Engagement",
+      "question": "Multiple means of engagement in UDL addresses:",
+      "options": {
+        "A": "The 'what' of learning",
+        "B": "The 'why' of learning - student motivation and interest",
+        "C": "The 'how' of learning",
+        "D": "The 'when' of learning"
+      },
+      "correctAnswer": "B",
+      "explanation": "Multiple means of engagement addresses the 'why' of learning, focusing on how to motivate learners and sustain their interest."
+    },
+    {
+      "id": 75,
+      "domain": "Domain 2",
+      "topic": "Seven Principles of Universal Design",
+      "subtopic": "Ronald Mace",
+      "question": "Who led the development of the Seven Principles of Universal Design?",
+      "options": {
+        "A": "Tim Berners-Lee",
+        "B": "Ronald Mace",
+        "C": "Steve Jobs",
+        "D": "Bill Gates"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ronald Mace led the working group at North Carolina State University that developed the Seven Principles in 1997."
+    },
+    {
+      "id": 76,
+      "domain": "Domain 2",
+      "topic": "Usability and User Experience",
+      "subtopic": "User Testing",
+      "question": "User testing with people with disabilities is important because:",
+      "options": {
+        "A": "It is legally required in all cases",
+        "B": "Automated testing can catch all accessibility issues",
+        "C": "Real users identify barriers that automated testing misses",
+        "D": "It is cheaper than automated testing"
+      },
+      "correctAnswer": "C",
+      "explanation": "User testing with people with disabilities reveals real-world usability barriers that automated testing tools cannot detect."
+    },
+    {
+      "id": 77,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Focus Visibility",
+      "question": "Why is visible focus indication important?",
+      "options": {
+        "A": "It makes pages more colorful",
+        "B": "Keyboard users need to know which element is currently focused",
+        "C": "It reduces page load time",
+        "D": "It is only needed for screen reader users"
+      },
+      "correctAnswer": "B",
+      "explanation": "Visible focus indication helps keyboard users know which interactive element is currently focused, essential for navigation without a mouse."
+    },
+    {
+      "id": 78,
+      "domain": "Domain 2",
+      "topic": "Benefits of Accessibility",
+      "subtopic": "SEO",
+      "question": "How does web accessibility improve SEO?",
+      "options": {
+        "A": "It doesn't affect SEO",
+        "B": "Accessible content structure and text alternatives help search engines understand content",
+        "C": "It increases website size",
+        "D": "It requires special SEO plugins"
+      },
+      "correctAnswer": "B",
+      "explanation": "Accessible practices like proper headings, text alternatives, and semantic HTML help search engines better understand and index content."
+    },
+    {
+      "id": 79,
+      "domain": "Domain 2",
+      "topic": "WCAG Principles",
+      "subtopic": "Captions",
+      "question": "Captions benefit which users?",
+      "options": {
+        "A": "Only deaf users",
+        "B": "Deaf users, non-native speakers, people in noisy environments",
+        "C": "Only users with cognitive disabilities",
+        "D": "Only elderly users"
+      },
+      "correctAnswer": "B",
+      "explanation": "Captions benefit deaf users, people hard of hearing, non-native speakers, those in noisy or quiet environments, and many others."
+    },
+    {
+      "id": 80,
+      "domain": "Domain 2",
+      "topic": "Universal Design",
+      "subtopic": "Born Accessible",
+      "question": "The 'born accessible' approach means:",
+      "options": {
+        "A": "People are born with accessibility skills",
+        "B": "Accessibility is built in from the design stage, not retrofitted",
+        "C": "Only new buildings need to be accessible",
+        "D": "Accessibility is a natural human trait"
+      },
+      "correctAnswer": "B",
+      "explanation": "Born accessible means integrating accessibility from the earliest design stages rather than retrofitting it later, which is more effective and cost-efficient."
+    },
+    {
+      "id": 81,
+      "domain": "Domain 3",
+      "topic": "International Instruments",
+      "subtopic": "CRPD",
+      "question": "When was the Convention on the Rights of Persons with Disabilities (CRPD) adopted?",
+      "options": {
+        "A": "1990",
+        "B": "2000",
+        "C": "2006",
+        "D": "2010"
+      },
+      "correctAnswer": "C",
+      "explanation": "The CRPD was adopted by the United Nations in 2006 and is the first binding international human rights instrument specifically addressing disability rights."
+    },
+    {
+      "id": 82,
+      "domain": "Domain 3",
+      "topic": "International Instruments",
+      "subtopic": "CRPD Ratification",
+      "question": "Approximately how many countries have ratified the CRPD?",
+      "options": {
+        "A": "Over 100",
+        "B": "Over 140",
+        "C": "Over 180",
+        "D": "All UN member states"
+      },
+      "correctAnswer": "C",
+      "explanation": "More than 180 countries have ratified the CRPD, making it one of the most widely ratified human rights conventions."
+    },
+    {
+      "id": 83,
+      "domain": "Domain 3",
+      "topic": "International Instruments",
+      "subtopic": "CRPD Article 9",
+      "question": "Article 9 of the CRPD specifically addresses:",
+      "options": {
+        "A": "Education",
+        "B": "Employment",
+        "C": "Accessibility",
+        "D": "Healthcare"
+      },
+      "correctAnswer": "C",
+      "explanation": "Article 9 of the CRPD specifically addresses accessibility, requiring states to ensure access to the physical environment, transportation, information, and communications."
+    },
+    {
+      "id": 84,
+      "domain": "Domain 3",
+      "topic": "International Instruments",
+      "subtopic": "Marrakesh Treaty",
+      "question": "The Marrakesh Treaty facilitates access to published works for:",
+      "options": {
+        "A": "All people with disabilities",
+        "B": "Persons who are blind, visually impaired, or print disabled",
+        "C": "Only deaf individuals",
+        "D": "Only people with cognitive disabilities"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Marrakesh Treaty specifically facilitates access to published works for persons who are blind, visually impaired, or otherwise print disabled."
+    },
+    {
+      "id": 85,
+      "domain": "Domain 3",
+      "topic": "Regional Instruments",
+      "subtopic": "EU Charter",
+      "question": "The EU Charter of Fundamental Rights:",
+      "options": {
+        "A": "Only applies to EU institutions",
+        "B": "Prohibits discrimination based on disability",
+        "C": "Is not legally binding",
+        "D": "Only covers employment"
+      },
+      "correctAnswer": "B",
+      "explanation": "The EU Charter of Fundamental Rights prohibits discrimination on grounds including disability and recognizes the rights of persons with disabilities."
+    },
+    {
+      "id": 86,
+      "domain": "Domain 3",
+      "topic": "National Laws",
+      "subtopic": "ADA",
+      "question": "The Americans with Disabilities Act (ADA) was enacted in:",
+      "options": {
+        "A": "1985",
+        "B": "1990",
+        "C": "1995",
+        "D": "2000"
+      },
+      "correctAnswer": "B",
+      "explanation": "The ADA was enacted in 1990, providing comprehensive civil rights protections for people with disabilities in the United States."
+    },
+    {
+      "id": 87,
+      "domain": "Domain 3",
+      "topic": "National Laws",
+      "subtopic": "ADA Title III",
+      "question": "Title III of the ADA prohibits discrimination in:",
+      "options": {
+        "A": "Federal employment only",
+        "B": "Public education only",
+        "C": "Places of public accommodation including businesses",
+        "D": "Federal government websites only"
+      },
+      "correctAnswer": "C",
+      "explanation": "ADA Title III prohibits discrimination based on disability in places of public accommodation, including businesses, schools, and other public-facing entities."
+    },
+    {
+      "id": 88,
+      "domain": "Domain 3",
+      "topic": "National Laws",
+      "subtopic": "Equality Act 2010",
+      "question": "The Equality Act 2010 is a law from:",
+      "options": {
+        "A": "United States",
+        "B": "Canada",
+        "C": "United Kingdom",
+        "D": "Australia"
+      },
+      "correctAnswer": "C",
+      "explanation": "The Equality Act 2010 is UK legislation that consolidates and strengthens anti-discrimination laws, including protections for disabled people."
+    },
+    {
+      "id": 89,
+      "domain": "Domain 3",
+      "topic": "ICT Accessibility Standards",
+      "subtopic": "Section 508",
+      "question": "Section 508 of the Rehabilitation Act requires accessibility for:",
+      "options": {
+        "A": "All private businesses",
+        "B": "US federal electronic and information technology",
+        "C": "Only state governments",
+        "D": "Only educational institutions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Section 508 requires US federal departments and agencies to ensure their electronic and information technology is accessible to people with disabilities."
+    },
+    {
+      "id": 90,
+      "domain": "Domain 3",
+      "topic": "ICT Accessibility Standards",
+      "subtopic": "EN 301 549",
+      "question": "EN 301 549 is:",
+      "options": {
+        "A": "A US federal law",
+        "B": "A European standard for ICT accessibility requirements",
+        "C": "An international treaty",
+        "D": "A Canadian provincial law"
+      },
+      "correctAnswer": "B",
+      "explanation": "EN 301 549 is a European standard containing accessibility requirements for ICT products and services, aligned with WCAG."
+    },
+    {
+      "id": 91,
+      "domain": "Domain 3",
+      "topic": "ICT Accessibility Standards",
+      "subtopic": "Harmonized Standard",
+      "question": "A harmonized European standard means:",
+      "options": {
+        "A": "It is mandatory for all businesses",
+        "B": "Following it presumes conformance with related EU directives",
+        "C": "It only applies to music and audio",
+        "D": "It replaces national laws"
+      },
+      "correctAnswer": "B",
+      "explanation": "A harmonized standard is voluntary, but following it presumes conformance with related EU directives, simplifying compliance demonstration."
+    },
+    {
+      "id": 92,
+      "domain": "Domain 3",
+      "topic": "Domain-Specific Laws",
+      "subtopic": "CVAA",
+      "question": "The Twenty-First Century Communications and Video Accessibility Act (CVAA) updates accessibility laws for:",
+      "options": {
+        "A": "Physical buildings",
+        "B": "Modern digital, broadband, and mobile communications",
+        "C": "Traditional print media",
+        "D": "Air travel only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The CVAA updates federal communications law to increase accessibility in modern digital, broadband, and mobile communications technologies."
+    },
+    {
+      "id": 93,
+      "domain": "Domain 3",
+      "topic": "Organizational Integration",
+      "subtopic": "Program vs Project",
+      "question": "ICT accessibility should be approached as:",
+      "options": {
+        "A": "A one-time project",
+        "B": "An ongoing program, not a project",
+        "C": "Optional enhancement",
+        "D": "Emergency response only"
+      },
+      "correctAnswer": "B",
+      "explanation": "ICT accessibility must be approached strategically and programmatically - as an ongoing program, not a one-time project."
+    },
+    {
+      "id": 94,
+      "domain": "Domain 3",
+      "topic": "Organizational Integration",
+      "subtopic": "Maturity Model Levels",
+      "question": "In the Business Disability Forum's Accessibility Maturity Model, Level 5 represents:",
+      "options": {
+        "A": "Informal - no documentation",
+        "B": "Defined - documented but not actioned",
+        "C": "Managed - business as usual",
+        "D": "Best practice - innovate, improve, and share"
+      },
+      "correctAnswer": "D",
+      "explanation": "Level 5 (Best practice) means the organization innovates, improves, and shares accessibility practices - the highest maturity level."
+    },
+    {
+      "id": 95,
+      "domain": "Domain 3",
+      "topic": "Organizational Integration",
+      "subtopic": "WAI Recommendations",
+      "question": "According to W3C WAI, the first phase of accessibility implementation is:",
+      "options": {
+        "A": "Plan",
+        "B": "Implement",
+        "C": "Initiate",
+        "D": "Sustain"
+      },
+      "correctAnswer": "C",
+      "explanation": "W3C WAI recommends four phases: Initiate, Plan, Implement, and Sustain. Initiate comes first, focusing on building awareness and support."
+    },
+    {
+      "id": 96,
+      "domain": "Domain 3",
+      "topic": "Organizational Integration",
+      "subtopic": "Champions",
+      "question": "Accessibility champions in an organization help to:",
+      "options": {
+        "A": "Replace all other accessibility efforts",
+        "B": "Build vision, sustain commitment, and lead adoption",
+        "C": "Handle all accessibility work alone",
+        "D": "Reduce accessibility budgets"
+      },
+      "correctAnswer": "B",
+      "explanation": "Accessibility champions build vision, sustain commitment, support integration throughout the organization, and lead maturity model adoption."
+    },
+    {
+      "id": 97,
+      "domain": "Domain 3",
+      "topic": "Organizational Integration",
+      "subtopic": "Testing",
+      "question": "Accessibility testing should occur:",
+      "options": {
+        "A": "Only at project completion",
+        "B": "Early and often throughout design and development",
+        "C": "Only when legally required",
+        "D": "Only using automated tools"
+      },
+      "correctAnswer": "B",
+      "explanation": "W3C recommends evaluating early and often throughout design and development - it's easier and less costly to address issues early."
+    },
+    {
+      "id": 98,
+      "domain": "Domain 3",
+      "topic": "Organizational Integration",
+      "subtopic": "Procurement",
+      "question": "Best practices for procuring accessible products include:",
+      "options": {
+        "A": "Accepting vendor claims without verification",
+        "B": "Verifying accessibility claims and requiring accessibility in contracts",
+        "C": "Only considering price",
+        "D": "Avoiding accessibility requirements in contracts"
+      },
+      "correctAnswer": "B",
+      "explanation": "Best practices include verifying product accessibility claims, verifying vendor expertise, and requiring accessibility in contractual agreements."
+    },
+    {
+      "id": 99,
+      "domain": "Domain 3",
+      "topic": "ICT Accessibility Standards",
+      "subtopic": "European Accessibility Act",
+      "question": "The European Accessibility Act applies to:",
+      "options": {
+        "A": "Only government websites",
+        "B": "Private businesses selling specified products and services",
+        "C": "Only non-profit organizations",
+        "D": "Only educational institutions"
+      },
+      "correctAnswer": "B",
+      "explanation": "The European Accessibility Act applies to private businesses (except microenterprises) selling specified products and services like computers, ATMs, e-commerce, etc."
+    },
+    {
+      "id": 100,
+      "domain": "Domain 3",
+      "topic": "International Instruments",
+      "subtopic": "CRPD Paradigm Shift",
+      "question": "The CRPD represents a paradigm shift from viewing persons with disabilities as:",
+      "options": {
+        "A": "Citizens to non-citizens",
+        "B": "Objects of charity to subjects with rights",
+        "C": "Employees to employers",
+        "D": "Patients to doctors"
+      },
+      "correctAnswer": "B",
+      "explanation": "The CRPD represents a paradigm shift from viewing persons with disabilities as 'objects' of charity and medical treatment to 'subjects' with rights who are active members of society."
+    }
+  ]
+}
