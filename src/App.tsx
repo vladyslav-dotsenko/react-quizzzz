@@ -25,6 +25,7 @@ type AppView = 'start' | 'quiz' | 'results'
 
 const STORAGE_KEY = 'cpacc-quiz-progress'
 const HISTORY_KEY = 'cpacc-quiz-history'
+const GIPHY_API_KEY = import.meta.env.VITE_GIPHY_API_KEY
 
 const DOMAIN_CONFIG: Record<string, { name: string; count: number }> = {
   'Domain 1': { name: 'Disabilities, Challenges, and AT', count: 40 },
@@ -135,6 +136,7 @@ function App() {
       }
   )
   const [elapsedTime, setElapsedTime] = useState(0)
+  const [resultGif, setResultGif] = useState<string | null>(null)
 
   const questions = useMemo(() => {
     const questionMap = new Map(allQuestions.map((q) => [q.id, q]))
@@ -166,6 +168,37 @@ function App() {
 
     return () => clearInterval(interval)
   }, [state.startTime, state.completed, view])
+
+  useEffect(() => {
+    if (view !== 'results' || !GIPHY_API_KEY) return
+
+    const correctCount = questions.reduce((count, q) => {
+      return state.answers[q.id] === q.correctAnswer ? count + 1 : count
+    }, 0)
+    const percentage = questions.length > 0 ? (correctCount / questions.length) * 100 : 0
+    const isPassing = percentage >= 70
+
+    const searchQuery = isPassing
+      ? 'star wars celebration victory'
+      : 'star wars yoda wisdom encouragement'
+
+    const fetchGif = async () => {
+      try {
+        const response = await fetch(
+          `https://api.giphy.com/v1/gifs/search?api_key=${GIPHY_API_KEY}&q=${encodeURIComponent(searchQuery)}&limit=25&rating=g`
+        )
+        const data = await response.json()
+        if (data.data && data.data.length > 0) {
+          const randomIndex = Math.floor(Math.random() * data.data.length)
+          setResultGif(data.data[randomIndex].images.fixed_height.url)
+        }
+      } catch (error) {
+        console.error('Failed to fetch GIF:', error)
+      }
+    }
+
+    fetchGif()
+  }, [view, questions, state.answers])
 
   const startQuiz = useCallback(() => {
     const selectedIds = selectQuestionsForQuiz(allQuestions)
@@ -301,6 +334,20 @@ function App() {
           </div>
           <p className="percentage">{percentage}%</p>
           <p className="time-taken">Time: {formatTime(elapsedTime)}</p>
+
+          {resultGif && (
+            <div className="result-gif">
+              <img
+                src={resultGif}
+                alt={percentage >= 70 ? 'Celebration' : 'Encouragement'}
+              />
+              <p className="gif-message">
+                {percentage >= 70
+                  ? 'The Force is strong with you!'
+                  : 'Do or do not. There is no try. Keep learning!'}
+              </p>
+            </div>
+          )}
 
           <div className="domain-stats">
             <h3>Results by Domain</h3>

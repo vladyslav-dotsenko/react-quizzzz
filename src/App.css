@@ -228,6 +228,29 @@
   margin-bottom: 32px;
 }
 
+.result-gif {
+  margin-bottom: 32px;
+  padding: 20px;
+  background: var(--social-bg);
+  border-radius: 16px;
+  display: inline-block;
+}
+
+.result-gif img {
+  max-width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+.gif-message {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accent);
+  font-style: italic;
+}
+
 .domain-stats {
   background: var(--social-bg);
   border-radius: 12px;
