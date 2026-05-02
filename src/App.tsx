@@ -151,14 +151,6 @@ function App() {
       .filter((q): q is Question => q !== undefined)
   }, [allQuestions, state.selectedQuestionIds])
 
-  const domainCounts = useMemo(() => {
-    const counts: Record<string, number> = {}
-    for (const q of questions) {
-      counts[q.domain] = (counts[q.domain] || 0) + 1
-    }
-    return counts
-  }, [questions])
-
   useEffect(() => {
     if (view !== 'start') {
       saveState(state)
