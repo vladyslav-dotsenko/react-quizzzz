@@ -453,12 +453,6 @@ function App() {
           <span className="question-number">
             Question {state.currentIndex + 1} of {questions.length}
           </span>
-          <span className="question-domain">
-            {currentQuestion.domain} ({domainCounts[currentQuestion.domain] || 0}q)
-          </span>
-          <span className="question-topic">
-            {currentQuestion.topic} — {currentQuestion.subtopic}
-          </span>
         </div>
 
         <p className="question-text">{currentQuestion.question}</p>
